@@ -11,6 +11,7 @@ def register_patient(patient_id, name, age, phone):
 
     patients.append(patient)
     print("Patient registered successfully.")
+
     return patient
 
 
@@ -22,7 +23,7 @@ def display_patients():
     print("\n--- Patient List ---")
 
     for patient in patients:
-        print("ID:", patient["id"])
+        print("Patient ID:", patient["id"])
         print("Name:", patient["name"])
         print("Age:", patient["age"])
         print("Phone:", patient["phone"])
