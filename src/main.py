@@ -13,7 +13,10 @@ def main():
     while True:
 
         print("\n========================================")
-        print("   HOSPITAL APPOINTMENT MANAGEMENT - DOCTORS")
+
+        print("   HOSPITAL APPOINTMENT MANAGEMENT ")
+=======
+        print("   HOSPITAL APPOINTMENT MANAGEMENT")
         print("========================================")
         print("1. Register Patient")
         print("2. View Patients")
